@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+.js-open-menu{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.js-open-menu:hover,.js-open-menu:focus{
+    color: #2196f3;
+}
+.js-menu-container {
+    visibility: hidden;
+    transform: scale(1.1);
+  /* background-color: #fff;
+  position: absolute;
+  width: 480px;
+  height: 796px; */
+}
+
+.is-open{
+    visibility: visible;
+    background-color: #fff;
+    position: absolute;
+    width: 480px;
+    height: 796px;
+}
+
+.js-close-menu {
+  position: relative;
+  top: 15px;
+  left: 444px;
+  background-color:#fff;
+  border: none;
+  cursor: pointer;
+}
+.js-close-menu:hover,
+.js-close-menu:focus {
+  color: #2196f3;
+}
+
+.js-menu-container .menu-drawer-nav ul {
+  padding-left: 40px;
+
+  position: relative;
+  top: 48px;
+  width: 219px;
+  height: 48px;
+}
+.js-menu-container .menu-drawer-nav ul li {
+  margin-bottom: 32px;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.js-menu-container .menu-drawer-nav ul li a {
+  color: #212121;
+}
+
+.js-menu-container .menu-drawer-nav ul li a:hover {
+  color: #2196f3;
+}
+
+.js-menu-container .mail-tel-btns {
+  padding-left: 40px;
+  position: relative;
+  top: 510px;
+}
+
+.js-menu-container .mail-tel-btns ul li {
+  margin-bottom: 32px;
+}
+#tel {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+#mail {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.social-media {
+  display: flex;
+  position: absolute;
+  top: 726px;
+  padding-left: 40px;
+}
+
+.social-media .social-media-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-media .social-media-links a {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+}
+.social-media .social-media-links hr {
+  width: 1px;
+  height: 22px;
+  border-color: rgba(33, 33, 33, 0.20);
+}
