@@ -964,16 +964,16 @@ height: 796px; */
   color: #2196f3;
 }
 
-.js-menu-container .mail-tel-btns {
+.js-menu-container .menu-mail-tel-btns {
   padding-left: 40px;
   position: relative;
   top: 390px;
 }
 
-.js-menu-container .mail-tel-btns ul li {
+.js-menu-container .menu-mail-tel-btns ul li {
   margin-bottom: 32px;
 }
-.js-menu-container .mail-tel-btns ul li #menu-mobile-tel {
+.js-menu-container .menu-mail-tel-btns ul li #menu-mobile-tel {
   color: #2196f3;
   font-family: Roboto;
   font-size: 34px;
@@ -982,7 +982,7 @@ height: 796px; */
   line-height: normal;
   letter-spacing: 0.68px;
 }
-.js-menu-container .mail-tel-btns ul li #menu-mobile-mail {
+.js-menu-container .menu-mail-tel-btns ul li #menu-mobile-mail {
   color: #757575;
   font-family: Roboto;
   font-size: 24px;
